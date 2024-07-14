@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class trying{
+public static void main (String[]args){
+Scanner scan = new Scanner (System.in);
+
+int num1;
+int num2;
+int num3;
+System.out.printIn("enter your first number");
+num1 = scan.nextInt();
+System.out.printIn("enter your second number");
+num2 = scan.nextInt();
+
+num3 = num1 + num2;
+System.out.printIn(your answer is ;"+num3);
